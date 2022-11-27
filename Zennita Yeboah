@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <style>
+            h1 {
+                text-align: center;
+                color: blueviolet;
+            }
+
+            h2{
+                text-align: center;
+                border-radius: 10px;
+                border: 1px solid blueviolet;
+                padding: 15px;
+            }
+
+            img{
+                border-radius: 10px;
+                width: 100%;
+            }
+
+            p{
+                font-size: medium;
+                line-height: 1.5;
+            }
+
+            button{
+                width: 100%;
+                background: blueviolet;
+                color: white;
+                border: none;
+                padding: 15px;
+                font-size: 20px;
+                border-radius: 30px;
+                box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+                margin:20px 0 ;
+            }
+
+            footer{
+                text-align: center;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+ <body>
+    <h1>
+    Yoga
+   </h1>
+   <h2>
+     Discipline   
+   </h2>
+   <img
+   src="data:image/jpeg;base64,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"
+    width="300"
+   />
+   <p>
+       Yoga maintains that chakras are center points of energy, thoughts, feelings, and the physical body. According to yogic teachers, chakras determine how people experience reality through emotional reactions, desires or aversions, levels of confidence or fear, and even physical symptoms and effects.
+   When energy becomes blocked in a chakra, it triggers physical, mental, or emotional 
+   <br />
+   <br />
+   <a href="https://en.wikipedia.org/wiki/Yoga">
+   Learn more on Wikepedia 
+   </a> 
+  </p> 
+ <button>
+ Go to a Yoga class 
+</button>
+ <footer>
+    Coded by
+
+    <a href="https://www.shecodes.io">
+        Shecodes 
+    </a>
+ </footer>
+
+ <script>
+    function subscribe(){
+        let name = 
+        prompt("What is your name?");
+        prompt("What is your email address?");
+
+        alert(`Thanks, ${name}! We'll be in touch! Meanwhile, do not forget to breathe`)
+    }
+    let button = document.querySelector("button");
+    button.addEventListener("click",subscribe);
+ </script>
+ </body>
+</html>
